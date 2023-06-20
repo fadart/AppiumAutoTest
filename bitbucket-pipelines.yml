@@ -1,0 +1,32 @@
+image: budtmo/docker-android-x86-11.0
+pipelines:
+  default:
+    - step:
+        name: Appium Automation
+        caches:
+          - node
+          - maven
+          - docker
+        script:
+          - node -v
+          - adb version
+          - appium --version
+          - docker run -d -p 6080:6080 -p 5554:5554 -p 5555:5555 -p 4723:4723 -e DEVICE="Samsung Galaxy S6" -e APPIUM=true --name android-container budtmo/docker-android-x86-8.1
+          - adb devices
+          - adb kill-server
+          - adb start-server
+          - adb devices
+          - adb kill-server
+          - adb start-server
+          - adb devices
+          - adb kill-server
+          - adb start-server
+          - adb devices
+          - apt-get update
+          - apt-get install -y maven
+          - mvn --version
+          - mvn clean install --file pom.xml
+        artifacts:
+          - target/surefire-reports/**
+        services:
+          - docker
