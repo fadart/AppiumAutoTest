@@ -3,6 +3,16 @@
 <suite name="Failed suite [Eyowo-Android]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Login(failed)">
     <classes>
+      <class name="modules.SignUp">
+        <methods>
+          <include name="setUp2"/>
+          <include name="Capabilities"/>
+          <include name="register"/>
+          <include name="SignUpTest"/>
+          <include name="captureStatus"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- modules.SignUp -->
       <class name="modules.Login">
         <methods>
           <include name="setUp2"/>
