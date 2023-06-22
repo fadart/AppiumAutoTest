@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Eyowo-Android]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Login(failed)" verbose="0">
+    <classes>
+      <class name="modules.Login">
+        <methods>
+          <include name="setUp2"/>
+          <include name="Capabilities"/>
+          <include name="register"/>
+          <include name="captureStatus"/>
+          <include name="InvalidloginTest"/>
+          <include name="ValidloginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- modules.Login -->
+      <class name="modules.SignUp">
+        <methods>
+          <include name="setUp2"/>
+          <include name="Capabilities"/>
+          <include name="register"/>
+          <include name="SignUpTest"/>
+          <include name="captureStatus"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- modules.SignUp -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Eyowo-Android] -->
