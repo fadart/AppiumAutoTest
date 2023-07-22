@@ -1,54 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 3, Errors: 0, Skipped: 4, Time elapsed: 170.875 s <<< FAILURE! - in TestSuite
-modules.Login.ValidloginTest  Time elapsed: 78.383 s  <<< FAILURE!
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 188.728 s <<< FAILURE! - in TestSuite
+modules.Login.ValidloginTest  Time elapsed: 55.996 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Fatimahs-MacBook-Pro.local', ip: 'fe80:0:0:0:14e7:f928:ac00:1885%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '11.2.3', java.version: '11.0.16.1'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: /Users/onomoh1/Desktop/Pers..., appPackage: com.eyowo.android.debug, automationName: uiautomator2, databaseEnabled: false, desired: {app: /Users/onomoh1/Desktop/Pers..., automationName: uiautomator2, deviceName: Emulator, newCommandTimeout: 2913, platformName: android, platformVersion: 12.0}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 2913, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2142, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 4703be94-5d64-416f-9610-a9a2abf5c72e
-*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.EditText}
-	at modules.Login.ValidloginTest(Login.java:63)
+Capabilities {app: /Users/onomoh1/Desktop/Pers..., appPackage: ng.softcom.kwiksell.lite, automationName: uiautomator2, databaseEnabled: false, desired: {app: /Users/onomoh1/Desktop/Pers..., automationName: uiautomator2, deviceName: Emulator, newCommandTimeout: 2913, platformName: android, platformVersion: 12.0}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 2913, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2142, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0dc4aa55-31ef-4d93-b123-1795574a62f2
+*** Element info: {Using=id, value=com.eyowo.android.debug:id/got_it}
+	at modules.Login.ValidloginTest(Login.java:46)
 
-modules.Login.InvalidloginTest  Time elapsed: 78.823 s  <<< FAILURE!
+modules.Login.InvalidloginTest  Time elapsed: 58.874 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Fatimahs-MacBook-Pro.local', ip: 'fe80:0:0:0:14e7:f928:ac00:1885%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '11.2.3', java.version: '11.0.16.1'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: /Users/onomoh1/Desktop/Pers..., appPackage: com.eyowo.android.debug, automationName: uiautomator2, databaseEnabled: false, desired: {app: /Users/onomoh1/Desktop/Pers..., automationName: uiautomator2, deviceName: Emulator, newCommandTimeout: 2913, platformName: android, platformVersion: 12.0}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 2913, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2142, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: ade72f81-ca5e-4d89-b098-5602a3b1e9a9
-*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.EditText}
-	at modules.Login.InvalidloginTest(Login.java:114)
+Capabilities {app: /Users/onomoh1/Desktop/Pers..., appPackage: ng.softcom.kwiksell.lite, automationName: uiautomator2, databaseEnabled: false, desired: {app: /Users/onomoh1/Desktop/Pers..., automationName: uiautomator2, deviceName: Emulator, newCommandTimeout: 2913, platformName: android, platformVersion: 12.0}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 2913, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2142, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dd3f412f-2538-4a4e-b059-95018328b3bb
+*** Element info: {Using=id, value=com.eyowo.android.debug:id/got_it}
+	at modules.Login.InvalidloginTest(Login.java:97)
 
-modules.SignUp.Capabilities  Time elapsed: 81.471 s  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error finding if 'com.eyowo.android.debug' is installed. Original error: Error executing adbExec. Original error: 'Stdout 'read' error: Error: read EFAULT
-    at Pipe.onStreamRead (internal/stream_base_commons.js:205:27)'; Command output: <empty>
+modules.SignUp.SignUpTest  Time elapsed: 56.145 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Fatimahs-MacBook-Pro.local', ip: 'fe80:0:0:0:14e7:f928:ac00:1885%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '11.2.3', java.version: '11.0.16.1'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error finding if 'com.eyowo.android.debug' is installed. Original error: Error executing adbExec. Original error: 'Stdout 'read' error: Error: read EFAULT
-    at Pipe.onStreamRead (internal/stream_base_commons.js:205:27)'; Command output: <empty>
-    at getResponseForW3CError (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
-    at asyncHandler (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Fatimahs-MacBook-Pro.local', ip: 'fe80:0:0:0:14e7:f928:ac00:1885%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '11.2.3', java.version: '11.0.16.1'
-Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: Error finding if 'com.eyowo.android.debug' is installed. Original error: Error executing adbExec. Original error: 'Stdout 'read' error: Error: read EFAULT
-    at Pipe.onStreamRead (internal/stream_base_commons.js:205:27)'; Command output: <empty>
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Fatimahs-MacBook-Pro.local', ip: 'fe80:0:0:0:14e7:f928:ac00:1885%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '11.2.3', java.version: '11.0.16.1'
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error finding if 'com.eyowo.android.debug' is installed. Original error: Error executing adbExec. Original error: 'Stdout 'read' error: Error: read EFAULT
-    at Pipe.onStreamRead (internal/stream_base_commons.js:205:27)'; Command output: <empty>
-    at getResponseForW3CError (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:804:9)
-    at asyncHandler (/Applications/Appium Server GUI.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:380:37)
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/onomoh1/Desktop/Pers..., appPackage: ng.softcom.kwiksell.lite, automationName: uiautomator2, databaseEnabled: false, desired: {app: /Users/onomoh1/Desktop/Pers..., automationName: uiautomator2, deviceName: Emulator, newCommandTimeout: 2913, platformName: android, platformVersion: 12.0}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_arm64, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 2913, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2142, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 860cea0c-ae1f-440b-97e2-0f046a478556
+*** Element info: {Using=id, value=com.eyowo.android.debug:id/got_it}
+	at modules.SignUp.SignUpTest(SignUp.java:36)
 
